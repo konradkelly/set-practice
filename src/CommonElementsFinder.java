@@ -27,6 +27,7 @@ public class CommonElementsFinder {
         }
         return commonNums;
     }
+    }
 
 
     public static void main(String[] args) {
