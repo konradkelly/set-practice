@@ -17,15 +17,21 @@ public class DuplicateRemover {
      * @return a sorted List<String> containing unique words from the input array
      */
     public static List<String> sortAndRemoveDuplicates(String[] words) {
+        
         Set<String> unique = new TreeSet<>();
+        
         for (String word : words) {
             unique.add(word);
         }
+
         List<String> wordList = new ArrayList();
+
         for (String word : unique) {
             wordList.add(word);
         }
+        
         return wordList;
+
     }
 
 
